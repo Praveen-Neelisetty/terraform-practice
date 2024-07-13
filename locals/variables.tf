@@ -54,3 +54,7 @@ variable "domain_name" {
   type    = string
   default = "praveen.store"
 }
+
+variable "instance_name" {
+  default     = "backend"
+}
